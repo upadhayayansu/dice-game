@@ -1,4 +1,4 @@
-import StartGames from "./components/Start";
+import StartGames from "./components/startGames";
 
 function App() {
   return (
