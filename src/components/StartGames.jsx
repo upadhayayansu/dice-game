@@ -16,17 +16,22 @@ const StartGames = () => {
 
 export default StartGames;
 
-const Container = styled.div`
-  max-width: 1180px;
-  height: 100vh;
-  display: flex;
-  margin: 0 auto;
-  align-items
-`;
+const Container = styled.div``;
 const Button = styled.button`
   color: white;
   pad: 10px 18px;
   background-color: black;
   border-radius: 5px;
   min-width: 220px;
+  border: none;
+  font-size: 16px;
+  border: 1px solid transparent;
+  transition: 0ms.4s background ease-in;
+
+  &:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.3s background ease-in;
+  }
 `;
